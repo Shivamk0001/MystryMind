@@ -1384,10 +1384,9 @@ header nav ul li a.active {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    display: none; /* Hidden by default */
-     /* Use flexbox to easily center content */
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    display: none;
+    justify-content: center; 
+    align-items: center; 
     z-index: 1000;
 }
 
@@ -1398,10 +1397,10 @@ header nav ul li a.active {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     width: 90%;
     max-width: 600px;
-    position: relative; /* Changed to relative */
+    position: relative; 
     animation: fadeIn 0.3s ease-out;
-    max-height: 90vh; /* Prevents form from going off-screen on smaller devices */
-    overflow-y: auto; /* Adds a scrollbar to the form if it's too long */
+    max-height: 90vh; 
+    overflow-y: auto; 
 }
 
 @keyframes fadeIn {

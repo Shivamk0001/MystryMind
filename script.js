@@ -222,20 +222,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
             jobTitleInput.value = jobTitle;
             popupOverlay.style.display = "flex";
-            body.style.overflow = "hidden"; // Stop background from scrolling
+            body.style.overflow = "hidden"; 
         });
     });
 
     closeBtn.addEventListener("click", () => {
         popupOverlay.style.display = "none";
-        body.style.overflow = "auto"; // Re-enable background scrolling
+        body.style.overflow = "auto"; 
     });
 
-    // Close the popup if the user clicks outside the form
+    
     window.addEventListener("click", (e) => {
         if (e.target === popupOverlay) {
             popupOverlay.style.display = "none";
-            body.style.overflow = "auto"; // Re-enable background scrolling
+            body.style.overflow = "auto"; 
         }
     });
 
